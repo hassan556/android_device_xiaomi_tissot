@@ -90,13 +90,13 @@ PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.xiaomi_8953
 
 # Update engine
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     brillo_update_payload \
     update_engine \
     update_engine_sideload \
     update_verifier
 
-PRODUCT_PACKAGES_DEBUG += \
+#PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
 # Verity
